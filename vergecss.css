@@ -1,0 +1,71 @@
+ .main_header{  
+    -webkit-font-smoothing: antialiased;
+    background-color: #fa4b2a;
+    
+    box-shadow: 1px 0 0 1px rgba(0,0,0,0.15);
+    height: 60px;
+    position: relative;
+    width: 100%;
+    z-index: 5000000;
+    line-height: 60px;
+}
+
+
+.menu_icon{
+width:60px;
+height:60px;
+color: #fff;
+font-family: "verge-font-icons";
+font-size: 24px;
+content: '\e805';
+text-align: center;
+line-height: 60px;
+/*position: absolute;*/
+ background-color: #fa4b2a;
+ float:left;
+
+}
+.the_verge img{
+width:135.7px;
+height:26px;
+z-index: 10;
+margin-top: 16.155px;
+
+}
+.the_verge{
+	width:140px;
+	height:60px;
+	/*position: absolute;
+	left:60px;*/
+	float:left;
+}
+.new_articles{
+height:60px;
+width:79px;
+float:right;
+    text-transform: uppercase;
+ 	border-left-color: white;
+   border-left-style: solid;
+   border-left: 1px;    
+
+}
+
+.new_articles_content {    
+	/*display: block;*/
+	    font-size: 18px;
+	margin-top:1px;
+	color: #fff;
+  /* margin: auto;*/
+   width:79px;
+   height:41px;
+   text-align: center;
+   /*border-left-color: white;
+   border-left-style: solid;
+   border-left: 1px; */
+}
+.new_articles_content strong{
+
+	margin-top: 2px;
+    font-size: 2em;
+    line-height: 1.15;
+}
