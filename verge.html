@@ -1,30 +1,135 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="vergecss.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 </head>
 <body>
 
-<div class="main_header">
-	
-	<img  src="verge menu bar from 2016-08-17 17-35-42.png" class="menu_icon">
-	<div class="the_verge">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-			<img src="image.png" >
-		
-		
-	</div>
-	<div class="new_articles">
-		<div class="new_articles_content">
-		<strong >11</strong>
-		</div>	
-	</div>			
+
+<div class="main_header">
+							<div class="menu_icon_parent">
+	                       					<img  src="verge menu bar from 2016-08-17 17-35-42.png"  id="menu_icon" class="menu_icon">
+	                       	</div>
+
+
+							<div class="the_verge">
+
+									<img src="image.png" >
+								
+								
+							</div>
+
+
+
+
+							<div class="new_articles">
+								<div class="new_articles_content">
+								<strong >11</strong>
+								</div>	
+							</div>			
 
 
 
 </div>
 
+
+
+
+						<div class="row1 row">
+
+						</div>
+
+
+					<div class="animated_vertical_navbar ">
+												<ul>
+													<li><a href="#">
+													
+
+														<img class="login_signup_image" src="https://cdn0.vox-cdn.com/images/verge/default-avatar.v9899025.gif" alt="Default avatar.v9899025">Log in | Sign up
+
+
+	    															
+
+
+
+
+
+
+
+													
+													  </a></li>
+													<li><a>HOME</a></li>
+													<li><a>LONGFORM</a></li>
+													<li><a>REVIEWS</a></li>
+													<li><a>VIDEO</a></li>
+													<li><a>TECH</a></li>
+													<li><a>CIRCUIT BREAKER</a></li>
+													<li><a>SCIENCE</a></li>
+													<li><a>ENTERTAINMENT</a></li>
+													<li><a>CARS</a></li>	
+													<li><a>TL;DR</a></li>
+													<li><a>FORUMS</a></li>
+													<li><a>SEARCH</a></li>
+
+
+
+												</ul>
+
+
+					</div>
+
+					<div class="animated_vertical_navbar_shadow">
+
+
+
+					</div>
+
+
+
+
+<script>
+
+
+
+$('.menu_icon_parent').click(function(){
+		$('.animated_vertical_navbar ').removeClass('transform_left');
+		$('.animated_vertical_navbar_shadow ').removeClass('transform_left_shadow');
+
+	  $('.animated_vertical_navbar ').addClass('transform_right');
+		console.log("woooooooo");
+		 $('.animated_vertical_navbar_shadow ').addClass('transform_right');
+});
+
+
+
+
+
+
+$('.animated_vertical_navbar_shadow').click(function(){
+		$('.animated_vertical_navbar_shadow ').removeClass('transform_right');
+
+	 $('.animated_vertical_navbar ').removeClass('transform_right');
+	  $('.animated_vertical_navbar ').addClass('transform_left');
+	  $('.animated_vertical_navbar_shadow ').addClass('transform_left_shadow');
+
+	  });
+
+
+
+
+
+
+
+
+</script>
+
+					
 
 </body>
 </html>
